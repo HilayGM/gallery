@@ -50,7 +50,7 @@ export default function Home() {
             <div className={styles.imageGrid}>
               <div className={styles.imageContainer}>
                 <Image
-                  src="/edificio.jpeg"
+                  src="/cubo.webp"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div className={styles.imageContainer}>
                 <Image
-                  src="/edificio2.jpg"
+                  src="/cubo.webp"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <div className={`${styles.imageContainer} ${styles.imageFull}`}>
                 <Image
-                  src="/edificio3.jpeg"
+                  src="/cubo.webp"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}

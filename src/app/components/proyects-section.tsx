@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         {/* Featured Project - Top Left */}
         <div className={styles.featuredProject}>
           <Image
-            src="/placeholder.svg?height=200&width=300"
+            src="/edificio.jpeg"
             alt="Sample Project - Skyscrapers"
             fill
             className={styles.projectImage}
@@ -26,7 +26,7 @@ export default function ProjectsSection() {
         {/* Wide Project - Middle */}
         <div className={styles.wideProject}>
           <Image
-            src="/placeholder.svg?height=200&width=800"
+            src="/edificio2.jpg"
             alt="Architectural project panorama"
             fill
             className={styles.projectImage}
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
         {/* Left Small Project */}
         <div className={styles.smallProject}>
           <Image
-            src="/placeholder.svg?height=150&width=300"
+            src="/edificio3.jpeg"
             alt="Urban architecture project"
             fill
             className={styles.projectImage}
@@ -46,7 +46,7 @@ export default function ProjectsSection() {
         {/* Right Small Project */}
         <div className={styles.smallProject}>
           <Image
-            src="/placeholder.svg?height=150&width=300"
+            src="/edificio3.jpeg"
             alt="Modern skyscraper project"
             fill
             className={styles.projectImage}
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
         {/* Bottom Project */}
         <div className={styles.bottomProject}>
           <Image
-            src="/placeholder.svg?height=150&width=300"
+            src="/edificio.jpeg"
             alt="Unique architectural structure"
             fill
             className={styles.projectImage}

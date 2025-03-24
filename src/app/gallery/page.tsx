@@ -12,8 +12,8 @@ export default function GalleryPage() {
     { src: "/mc2.jpeg", alt: "White and red lighthouse" },
     { src: "/mc1.jpg", alt: "Historic building with garden" },
     { src: "/mc2.jpeg", alt: "Arched entrance with ornate details" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "City street with historic tower" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Colonnade building with columns" },
+    { src: "/mc1.jpg", alt: "City street with historic tower" },
+    { src: "/mc2.jpeg", alt: "Colonnade building with columns" },
     { src: "/placeholder.svg?height=300&width=300", alt: "Waterfront building with white facade" },
     { src: "/placeholder.svg?height=300&width=300", alt: "Modern architecture viewed from below" },
   ]
