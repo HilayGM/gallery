@@ -1,0 +1,178 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Main Content */
+  .main {
+    flex: 1;
+    padding: 4rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .projectsHeader {
+    margin-bottom: 3rem;
+  }
+  
+  .projectsSubtitle {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #ccc;
+    margin: 0;
+  }
+  
+  .projectsTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Projects List */
+  .projectsList {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .projectItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .projectImage {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .image {
+    object-fit: cover;
+  }
+  
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .projectTitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+  
+  .projectDescription {
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .viewMoreContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .viewMore {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .viewMore:hover {
+    color: #999;
+  }
+  
+  .arrow {
+    margin-left: 0.5rem;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .pageNumbers {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  
+  .currentPage {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .totalPages {
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .pageControls {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pageButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .projectItem {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .projectImage {
+      height: 400px;
+    }
+  
+    .viewMoreContainer {
+      justify-content: flex-start;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      padding: 2rem 1.5rem;
+    }
+  
+    .projectsList {
+      gap: 3rem;
+    }
+  
+    .projectImage {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projectImage {
+      height: 250px;
+    }
+  }
+  
+  
