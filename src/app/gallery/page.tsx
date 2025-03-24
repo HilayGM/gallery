@@ -6,12 +6,12 @@ import Footer from "../components/footer"
 export default function GalleryPage() {
   // Gallery images data with lighthouse and architecture images
   const galleryImages = [
-    { src: "/placeholder.svg?height=300&width=300", alt: "Architecture placeholder" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Lighthouse at dusk with purple sky" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Glass ceiling structure" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "White and red lighthouse" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Historic building with garden" },
-    { src: "/placeholder.svg?height=300&width=300", alt: "Arched entrance with ornate details" },
+    { src: "/mc1.jpg", alt: "Architecture placeholder" },
+    { src: "/mc2.jpeg", alt: "Lighthouse at dusk with purple sky" },
+    { src: "/mc1.jpg", alt: "Glass ceiling structure" },
+    { src: "/mc2.jpeg", alt: "White and red lighthouse" },
+    { src: "/mc1.jpg", alt: "Historic building with garden" },
+    { src: "/mc2.jpeg", alt: "Arched entrance with ornate details" },
     { src: "/placeholder.svg?height=300&width=300", alt: "City street with historic tower" },
     { src: "/placeholder.svg?height=300&width=300", alt: "Colonnade building with columns" },
     { src: "/placeholder.svg?height=300&width=300", alt: "Waterfront building with white facade" },
@@ -35,7 +35,7 @@ export default function GalleryPage() {
           {galleryImages.map((image, index) => (
             <div key={index} className={styles.galleryItem}>
               <Image
-                src={image.src || "/placeholder.svg"}
+                src={image.src || "/mc1.jpg"}
                 alt={image.alt}
                 width={300}
                 height={300}

@@ -30,13 +30,13 @@ export default function Home() {
         </div>
         <div className={styles.heroImageContainer}>
           <Image
-            src="/placeholder.svg?height=500&width=400"
+            src="/Rectangle.png"
             alt="Edificio moderno de arquitectura"
             fill
             className={styles.heroImage}
           />
           <div className={styles.viewProject}>
-            <span>VIEW PROJECT</span>
+            <span>VIEW PROJECTS</span>
             <span>→</span>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Home() {
             <div className={styles.imageGrid}>
               <div className={styles.imageContainer}>
                 <Image
-                  src="/placeholder.svg?height=150&width=150"
+                  src="/edificio.jpeg"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div className={styles.imageContainer}>
                 <Image
-                  src="/placeholder.svg?height=150&width=150"
+                  src="/edificio2.jpg"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <div className={`${styles.imageContainer} ${styles.imageFull}`}>
                 <Image
-                  src="/placeholder.svg?height=100&width=300"
+                  src="/edificio3.jpeg"
                   alt="Detalle arquitectónico"
                   fill
                   className={styles.image}
@@ -139,7 +139,7 @@ export default function Home() {
             </form>
           </div>
           <div className={styles.contactImage}>
-            <Image src="/placeholder.svg?height=300&width=400" alt="Contacto" fill className={styles.image} />
+            <Image src="/contact.jpg" alt="Contacto" fill className={styles.image} />
           </div>
         </div>
       </section>

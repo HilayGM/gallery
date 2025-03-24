@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.footerContent}>
         <div className={styles.footerLogo}>
           <div className={styles.logoText}>
-            <span className={styles.logoMain}>PA</span>
+            <span className={styles.logoMain}>Tilines</span>
             <span className={styles.logoSub}>DIGITAL PROJECT</span>
           </div>
         </div>
